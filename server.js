@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Health check — visit /api/health to verify backend is running
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+  res.json({ status: 'Pappu', timestamp: new Date().toISOString() });
 });
 
 // MongoDB Connection
